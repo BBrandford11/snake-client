@@ -11,17 +11,17 @@ const connect = function () {
     console.log("YO you connected");
     
   });
-  conn.on("connect", () => {
-    // code that does something when the connection is first established
-    // conn.write("Move: up");
-    // setTimeout(() => {
-    //   conn.write("Move: up");
-    // }, 2000)
-    // setInterval(() => {
-    //   conn.write("Move: up");
-    // }, 50)
+  // conn.on("connect", () => {
+  //   // code that does something when the connection is first established
+  //   // conn.write("Move: up");
+  //   // setTimeout(() => {
+  //   //   conn.write("Move: up");
+  //   // }, 2000)
+  //   // setInterval(() => {
+  //   //   conn.write("Move: up");
+  //   // }, 50)
     
-  });
+  // });
   conn.on("data", (sent) => {
     
     console.log(sent);
