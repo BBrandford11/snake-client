@@ -28,6 +28,10 @@ const handleUserInput = function (key) {
     connection.write("Move: down");
   }
 
+  if(key === "o"){
+    connection.write("Say: Wooo");
+  }
+
   // your code here
 };
 
